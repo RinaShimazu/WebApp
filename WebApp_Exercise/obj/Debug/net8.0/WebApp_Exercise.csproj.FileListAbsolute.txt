@@ -28,3 +28,4 @@
 /home/fullness/CS_training/WebApp/WebApp_Exercise/obj/Debug/net8.0/WebApp_Exercise.pdb
 /home/fullness/CS_training/WebApp/WebApp_Exercise/obj/Debug/net8.0/WebApp_Exercise.genruntimeconfig.cache
 /home/fullness/CS_training/WebApp/WebApp_Exercise/obj/Debug/net8.0/ref/WebApp_Exercise.dll
+/home/fullness/CS_training/WebApp/WebApp_Exercise/obj/Debug/net8.0/WebApp_Exercise.sourcelink.json
