@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 
 [Route("Option03")]
-public class Opt03Controller : Controller
+public class Op03Controller : Controller
 {
     [HttpPost("Calc")]
-    public IActionResult Calc(Opt03Form form)
+    public IActionResult Calc(Op03Form form)
     {
         if (form.Opt == 1)
         {

@@ -16,4 +16,6 @@ public class Ex07Controller : Controller
         var result = form.Value1 + form.Value2;
         return Content($"{form.Value1} + {form.Value2} = {result}");
     }
+
+
 }
