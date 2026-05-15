@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/html/FormData.html"
     },
     {
+      "Id": "/home/fullness/CS_training/WebApp/WebApp_Exercise/wwwroot/html/Option03.html",
+      "PackagePath": "staticwebassets/html/Option03.html"
+    },
+    {
       "Id": "/home/fullness/CS_training/WebApp/WebApp_Exercise/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
