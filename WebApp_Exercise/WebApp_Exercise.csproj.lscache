@@ -82,10 +82,19 @@ Controllers/
 Exceptions/
  DomainException.cs
  InternalException.cs
-Infrastructures/Entities/
- ItemCatgoryEntity.cs
- ItemEntity.cs
- ItemStockEntity.cs
+Infrastructures/Context/Adapters/
+ ItemCategoryEntityAdapter.cs
+ ItemEntityAdapter.cs
+ ItemStockEntityAdapter.cs
+Infrastructures/
+ Context/AppDbContext.cs
+ Entities/
+  ItemCatgoryEntity.cs
+  ItemEntity.cs
+  ItemStockEntity.cs
+ Repositories/
+  ItemCategoryRepository.cs
+  ItemRepository.cs
 Models/
  ErrorViewModel.cs
  Exercise07Form.cs
