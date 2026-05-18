@@ -53,10 +53,16 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+Applications/Adapters/
+ IConverter.cs
+ IRestorer.cs
 Applications/Domains/
  Item.cs
  ItemCategory.cs
  ItemStock.cs
+Applications/Repositories/
+ IItemCategoryRepository.cs
+ IItemRepository.cs
 Controllers/
  Ex03Controller.cs
  Ex04Controller.cs
@@ -73,7 +79,13 @@ Controllers/
  RouteSampleController.cs
  TagHelperFormController.cs
  TypeConversionErrorController.cs
-Exceptions/DomainException.cs
+Exceptions/
+ DomainException.cs
+ InternalException.cs
+Infrastructures/Entities/
+ ItemCatgoryEntity.cs
+ ItemEntity.cs
+ ItemStockEntity.cs
 Models/
  ErrorViewModel.cs
  Exercise07Form.cs
@@ -390,6 +402,12 @@ Program.cs
  System.Xml.XPath.dll
  System.Xml.XPath.XDocument.dll
  WindowsBase.dll
+<NUGET>/
+ microsoft.entityframeworkcore.abstractions/8.0.0/lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+ microsoft.entityframeworkcore.relational/8.0.0/lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+ microsoft.entityframeworkcore/8.0.0/lib/net8.0/Microsoft.EntityFrameworkCore.dll
+ npgsql.entityframeworkcore.postgresql/8.0.0/lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+ npgsql/8.0.0/lib/net8.0/Npgsql.dll
 
 [analyzerReferences]
 <DOTNET>/packs/Microsoft.AspNetCore.App.Ref/8.0.26/analyzers/dotnet/cs/
@@ -417,6 +435,7 @@ Program.cs
 <DOTNET>/sdk/8.0.420/Sdks/Microsoft.NET.Sdk/analyzers/
  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
  Microsoft.CodeAnalysis.NetAnalyzers.dll
+<NUGET>/microsoft.entityframeworkcore.analyzers/8.0.0/analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll
 
 [analyzerConfigFiles]
 <DOTNET>/sdk/8.0.420/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_8_default.globalconfig
