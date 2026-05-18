@@ -1,0 +1,8 @@
+/home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.GeneratedMSBuildEditorConfig.editorconfig
+/home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.AssemblyInfoInputs.cache
+/home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.AssemblyInfo.cs
+/home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.csproj.CoreCompileInputs.cache
+/home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.MvcApplicationPartsAssemblyInfo.cache
+/home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.RazorAssemblyInfo.cache
+/home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.RazorAssemblyInfo.cs
+/home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.sourcelink.json
