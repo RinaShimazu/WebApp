@@ -6,3 +6,4 @@
 /home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.RazorAssemblyInfo.cache
 /home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.RazorAssemblyInfo.cs
 /home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.sourcelink.json
+/home/fullness/CS_training/WebApp/WebApp_Sample/obj/Debug/net8.0/WebApp_Sample.csproj.AssemblyReference.cache
