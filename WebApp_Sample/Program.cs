@@ -1,10 +1,12 @@
-// WebApplicationBuilderのビルダーを作成し、コマンドライン引数を渡す
+using WebApp_Sample.Presentations.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// DIコンテナにMVCコントローラとビューをサポートするサービスを追加する
+// Add services to the container.
 builder.Services.AddControllersWithViews();
+// 依存定義および依存性注入
+builder.Services.SettingDependencyInjection(builder.Configuration);
 
-// WbApplicationをビルダーから構築する
 var app = builder.Build();
 
 // HTTPリクエストパイプラインの構成を行う

@@ -4,7 +4,7 @@ using WebApp_Exercise.Applications.Repositories;
 using WebApp_Exercise.Exceptions;
 using WebApp_Exercise.Infrastructures.Adapters;
 using WebApp_Exercise.Infrastructures.Context;
-namespace WebApp_Exercise_Answer.Infrastructures.Repositories;
+namespace WebApp_Exercise.Infrastructures.Repositories;
 /// <summary>
 /// ドメインオブジェクト:商品カテゴリのCRUD操作インターフェイスの実装
 /// </summary>

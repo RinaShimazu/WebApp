@@ -1,3 +1,5 @@
+using WebApp_Exercise.Presentations.Extensions;
+
 // WebApplicationBuilderのビルダーを作成し、コマンドライン引数を渡す
 var builder = WebApplication.CreateBuilder(args);
 
