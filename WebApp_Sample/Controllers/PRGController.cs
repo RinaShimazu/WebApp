@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
-using WebApp_Sample.Models.PRGForm;
 /// <summary>
 /// リスト5-2 PRGパターンとTempDataの利用
 /// </summary>
